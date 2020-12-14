@@ -8,3 +8,5 @@ sed -i 's/9000/'${PORT}'/g' ${FILE}
 certbot --nginx -d ${CERTNAME}
 nginx -t
 nginx -s reload
+#create.sh domain port
+#create.sh doamin.com 9999
